@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Spotify Playlist</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.3.1/css/all.css" integrity="sha512-x9WwyMYBnlXMNQ6kQ/Lyzu1NqIhLQKL5Oq6xByfXuRj7s9CskyCbLv/1IjqzJmXwFXWr0ov6jBV7Qbc0hh9nHg==" crossorigin="anonymous" referrerpolicy="no-referrer">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+     <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+    <nav class="navbar">
+      <a href="index.html" class="logo">Spotify</a>
+      <div class="nav-links">
+        <a href="index.html">Home</a>
+        <a href="browse.html">Browse</a>
+        <a href="#">Your Library</a>
+      </div>
+      <form class="search-box" action="#">
+        <input type="text" placeholder="What do you want to play?" required>
+      </form>
+      <a href="login.html" class="btn-pill">Log in</a>
+    </nav>
+  </header>
+
+  <div class="layout">
+    <aside class="sidebar">
+      <ul class="side-menu">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="browse.html">Browse</a></li>
+        <li><a href="#" class="active">Your Library</a></li>
+      </ul>
+
+      <h3 class="side-heading">Playlists</h3>
+      <ul class="side-playlists">
+        <li class="side-item active-item">
+          <img src="16.jpg" alt="Bollywood Hits cover">
+          <div><strong>Bollywood Hits</strong><span>Playlist • Spotify</span></div>
+        </li>
+        <li class="side-item">
+          <img src="17.jpg" alt="Liked Songs cover">
+          <div><strong>Liked Songs</strong><span>1,248 songs</span></div>
+        </li>
+        <li class="side-item">
+          <img src="18.jpg" alt="Chill Vibes cover">
+          <div><strong>Chill Vibes</strong><span>By you</span></div>
+        </li>
+        <li class="side-item">
+          <img src="19.jpg" alt="Workout Mix cover">
+          <div><strong>Workout Mix</strong><span>By you</span></div>
+        </li>
+      </ul>
+    </aside>
+    <main class="content">
+      <a href="browse.html" class="back-link">&larr; Back to Browse</a>
+
+      <section id="playlist-hero">
+        <img src="16.jpg" alt="Bollywood Hits playlist cover" class="cover">
+        <div class="hero-info">
+          <p class="small-label">PLAYLIST</p>
+          <h1>Bollywood Hits</h1>
+          <p class="description">The best Bollywood songs, all in one place.</p>
+          <p class="meta"><strong>Spotify</strong> • 50 songs • 3 hr 12 min</p>
+          <div class="hero-buttons">
+            <button class="btn-play">&#9654; Play</button>
+            <button class="btn-outline">Follow</button>
+          </div>
+        </div>
+      </section>
+
+      <table class="track-table">
+        <thead>
+          <tr>
+            <th>#</th>
+            <th>Track</th>
+            <th>Artist</th>
+            <th>Duration</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr><td>1</td><td><img src="13.jpg" alt="Kesariya">Ranjhaan</td><td>Preet Sarohi</td><td>4:28</td></tr>
+          <tr><td>2</td><td><img src="2.jpg" alt="Apna Bana Le">Chalreh Chalreh waal</td><td>Sick Vibex</td><td>4:21</td></tr>
+          <tr><td>3</td><td><img src="3.jpg" alt="Heeriye">Finding Her</td><td>Khushagra, Bharath</td><td>3:14</td></tr>
+          <tr><td>4</td><td><img src="4.jpg" alt="Raataan Lambiyan">Young G.O.A.T.</td><td>Cheema Y, Gur Sidhu</td><td>3:48</td></tr>
+          <tr><td>5</td><td><img src="5.jpg" alt="Tujhe Kitna Chahne Lage">Yeh Jawaani hai deewani</td><td>Pritam</td><td>4:37</td></tr>
+          <tr><td>6</td><td><img src="6.jpg" alt="Gallan Goodiyaan">Ashiqui 2</td><td>Mithoon, Ankit Tiwari</td><td>3:55</td></tr>
+          <tr><td>7</td><td><img src="14.jpg" alt="Phir Bhi Tumko Chaahunga">Safe Place Inside</td><td>Vampire 2026</td><td>4:32</td></tr>
+          <tr><td>8</td><td><img src="8.jpg" alt="Baarish">Baawra</td><td>Khushagra, Baawra</td><td>4:12</td></tr>
+        </tbody>
+      </table>
+    </main>
+  </div>
+  <footer class="footer">
+    <div class="footer-top">
+      <a href="index.html" class="logo">Spotify</a>
+      <div class="footer-col">
+        <h4>Company</h4>
+        <a href="#">About</a>
+        <a href="#">Jobs</a>
+        <a href="#">For the Record</a>
+      </div>
+      <div class="footer-col">
+        <h4>Communities</h4>
+        <a href="#">For Artists</a>
+        <a href="#">Developers</a>
+        <a href="#">Advertising</a>
+      </div>
+      <div class="footer-col">
+        <h4>Useful Links</h4>
+        <a href="#">Help</a>
+        <a href="#">Web Player</a>
+        <a href="#">Free Mobile App</a>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <p>&copy; 2026 Spotify Clone. All rights reserved.</p>
+      <div>
+        <a href="#">Privacy</a>
+        <a href="#">Terms</a>
+        <a href="#">Cookies</a>
+      </div>
+    </div>
+  </footer>
+</body>
+</html>
