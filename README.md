@@ -1,35 +1,34 @@
 # 🎵 Spotify Redesign
 
-A frontend redesign of Spotify's web interface, built to practice HTML, CSS, and JavaScript while creating a modern music-player experience.
+A Spotify-inspired frontend project built with HTML, CSS, and JavaScript.  
+This project focuses on recreating a modern music streaming interface while adding basic interactive music-player functionality.
 
-## 🌐 Live Demo
+## 🔗 Live Demo
 
-👉 https://nakuljain789.github.io/Spotify-Redesign/
+**[View Live Website](https://nakuljain789.github.io/Spotify-Redesign/)**
 
-## 📌 About
+## 📸 Preview
 
-Spotify Redesign is a frontend project inspired by Spotify's interface.
-
-The project includes different pages and a working music player with play/pause controls and a progress bar.
+A modern Spotify-inspired interface with browsing, playlists, album artwork, and an interactive music player.
 
 ## ✨ Features
 
-- 🎧 Spotify-inspired modern UI
-- 🏠 Home/Browse page
-- 🎵 Playlist page
-- ▶️ Play/Pause music controls
-- 📊 Dynamic music progress bar
-- ⏩ Seek through the song using the progress bar
-- 📱 Responsive frontend layout
-- 🖼️ Album and playlist artwork
+- Spotify-inspired user interface
+- Browse and playlist pages
+- Interactive music player
+- Play / pause functionality
+- Dynamic song progress bar
+- Seek through the song using the progress bar
+- Album and playlist artwork
+- Clean and responsive layout
 
-## 🛠️ Technologies Used
+## 🛠️ Built With
 
-- HTML
-- CSS
-- JavaScript
+- **HTML5** — Page structure
+- **CSS3** — Styling and responsive layout
+- **JavaScript** — Music player functionality and interactions
 
-## 📂 Project Structure
+## 📁 Project Structure
 
 ```text
 Spotify-Redesign/
@@ -39,5 +38,11 @@ Spotify-Redesign/
 ├── playlist.html
 ├── style.css
 ├── script.js
+│
 ├── Images/
+│   ├── 1.jpg
+│   ├── 2.jpg
+│   └── ...
+│
 └── Audio/
+    └── 1.mp3
