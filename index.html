@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Spotify Clone</title>
+    <title><Spotify-Redesign></Spotify-Redesign></title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.3.1/css/all.css" integrity="sha512-x9WwyMYBnlXMNQ6kQ/Lyzu1NqIhLQKL5Oq6xByfXuRj7s9CskyCbLv/1IjqzJmXwFXWr0ov6jBV7Qbc0hh9nHg==" crossorigin="anonymous" referrerpolicy="no-referrer">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -30,7 +30,7 @@
             <div class="right-half2">
                 <div class="nav-text"><i class="fa-solid fa-download"></i>Install App</div>
                 <div class="nav-text">Sign Up</div>
-                <button class="login">Log in</button>
+                <button class="login"><a href="login.html">Log in</a></button>
             </div>
         </div>
     </nav>
@@ -59,10 +59,10 @@
                 <h2>Trending Songs</h2>
                 <div class="songs">
                     <div class="music-card">
-                        <img src="Images/1.jpg" alt="">
+                        <img src="Images/20.jpg" alt="">
                         <div class="music-play-btn"><i class="fa-solid fa-circle-play"></i></div>
-                        <div class="img-title">Meri maa ke barabar koi nhi</div>
-                        <div class="img-description">Jubin Nautiyal</div>
+                        <div class="img-title">King Shit</div>
+                        <div class="img-description">Shubh . Leo</div>
                     </div>
                     <div class="music-card">
                         <img src="Images/2.jpg" alt="">
@@ -118,92 +118,69 @@
                     <div class="music-card">
                         <img src="Images/11.jpg" alt="">
                         <div class="music-play-btn"><i class="fa-solid fa-circle-play"></i></div>
-                        <div class="img-title">Sitaare ("From Ikkis")</div>
-                        <div class="img-description">Arijit Singh,Sachin Jigar</div>
                     </div>
                     <div class="music-card">
                         <img src="Images/8.jpg" alt="">
                         <div class="music-play-btn"><i class="fa-solid fa-circle-play"></i></div>
-                        <div class="img-title">Baawra</div>
-                        <div class="img-description">Khushagra, Baawra 2024</div>
                     </div>
                     <div class="music-card">
                         <img src="Images/12.jpg" alt="">
                         <div class="music-play-btn"><i class="fa-solid fa-circle-play"></i></div>
-                        <div class="img-title">I met her again</div>
-                        <div class="img-description">Maan panu, tav</div>
                     </div>
                     <div class="music-card">
                         <img src="Images/13.jpg" alt="">
                         <div class="music-play-btn"><i class="fa-solid fa-circle-play"></i></div>
-                        <div class="img-title">Raanjhan</div>
-                        <div class="img-description">Preet Sarohi 2026</div>
                     </div>
                     <div class="music-card">
-                        <img src="Images/14.jpg" alt="">
+                        <img src="Images/1.jpg" alt="">
                         <div class="music-play-btn"><i class="fa-solid fa-circle-play"></i></div>
-                        <div class="img-title">Safe Place Inside</div>
-                        <div class="img-description">Vampire 2026</div>
                     </div>
                     <div class="music-card">
                         <img src="Images/10.jpg" alt="">
                         <div class="music-play-btn"><i class="fa-solid fa-circle-play"></i></div>
-                        <div class="img-title">Jiyara</div>
-                        <div class="img-description">Khushagra, Jiyara 2026</div>
                     </div>
                     <div class="music-card">
                         <img src="Images/4.jpg" alt="">
                         <div class="music-play-btn"><i class="fa-solid fa-circle-play"></i></div>
-                        <div class="img-title">Young G.O.A.T.</div>
-                        <div class="img-description">Cheema Y, Gur Sidhu</div>
                     </div>
                      <div class="music-card">
                         <img src="Images/3.jpg" alt="">
                         <div class="music-play-btn"><i class="fa-solid fa-circle-play"></i></div>
-                        <div class="img-title">Finding Her</div>
-                        <div class="img-description">Kushagra, Bharath</div>
                     </div>
                     <div class="music-card">
                         <img src="Images/15.jpg" alt="">
                         <div class="music-play-btn"><i class="fa-solid fa-circle-play"></i></div>
-                        <div class="img-title">Damru Drill</div>
-                        <div class="img-description">Preet Sarohi2026</div>
                     </div>
                 </div>
             </div>
         </div>
     </div>
     </div>
-  <footer class="footer">
-    <div class="footer-top">
-      <a href="index.html" class="logo">Spotify</a>
-      <div class="footer-col">
-        <h4>Company</h4>
-        <a href="#">About</a>
-        <a href="#">Jobs</a>
-        <a href="#">For the Record</a>
-      </div>
-      <div class="footer-col">
-        <h4>Communities</h4>
-        <a href="#">For Artists</a>
-        <a href="#">Developers</a>
-        <a href="#">Advertising</a>
-      </div>
-      <div class="footer-col">
-        <h4>Useful Links</h4>
-        <a href="#">Help</a>
-        <a href="#">Web Player</a>
-        <a href="#">Free Mobile App</a>
-      </div>
+
+    <!-- Player -->
+    
+    <div class="player-bar">
+       <div class="now-bar">
+          <img src="Images/20.jpg" alt="">
+          <div>
+            <div class="img-title">King Shit</div>
+            <div class="img-description">Shubh . Leo</div>
+          </div>
+        </div>
+        <div class="music-controller">
+            <div class="player">
+                <div id="shuffle"><i class="player-btns fa-solid fa-shuffle"></i></div>
+                <div id="backward"><i class="player-btns fa-solid fa-backward-step"></i></div>
+                <div><i id="play" class="player-btns fa-solid fa-circle-play"></i></div>
+                <div id="forward"><i class="player-btns fa-sharp fa-solid fa-forward-step"></i></div>
+                <div id="repeat"><i class="player-btns fa-solid fa-repeat"></i></div>
+            </div>
+            <div>
+              <input type="range" id="progressBar" value="0">
+            </div>
+        </div>
+        <div></div>
     </div>
-    <div class="footer-bottom">
-      <p>&copy; 2026 Spotify Clone. All rights reserved.</p>
-      <div>
-        <a href="#">Privacy</a>
-        <a href="#">Terms</a>
-        <a href="#">Cookies</a>
-      </div>
-    </div>
-  </footer>
+    <script src="script.js"></script>
 </body>
 </html>
